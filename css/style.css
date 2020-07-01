@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.top-banner {
+    width: 100%;
+    float: left;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-position: center;
+}
+.banner-content {
+    width: 60%;
+    float: left;
+    padding-top: 100px;
+}
+
+
+.name-highlighter {
+    color: #EC4C7A;
+    font-size: 45px;
+}
+
+.banner-content p {
+    margin-top: 30px;
+}
+.banner-content a {
+
+    text-decoration: none;
+    color: white;
+} 
+
+.banner-content button {
+    background-image: linear-gradient(45deg , #EC5196, #EC4C7D );
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.banner-img{
+    width: 40%;
+    float: left;
+}
+
+.banner-img img{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+.biography{
+    width:100% ;
+    float: left;
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0px;
+}
+.bio-img{
+width: 40%;
+float: left;
+
+}
+.bio-img img{
+    width: 100%;
+    margin: 0px auto;
+    display: block;   
+    }
+    .bio-description {
+        width: 54%;
+        float: left;
+        padding-left: 66px;
+        padding-top: 117px;
+    }
+.bio-description h2 {
+
+        font-size: 35px;
+ }
+.bio-description p {
+    margin-top: 30px;
+}
+
+
+.bio-description button {
+    margin-top: 30px;
+    background-image: linear-gradient(45deg , #EC5196, #EC4C7D );
+    padding: 15px 38px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bio-description a{
+    text-decoration: none;
+    color: white;
+}
+.work {
+    width: 100%;
+    float: left;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-position: center;
+}
+.work-sample {
+    width: 32%;
+    float: left;
+    margin-left: 14px;
+}
+.work-sample img{
+    width:100%;
+    margin: 0px auto;
+    display: block;
+}
+
+.work h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+.client-feedback {
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+    background-image: url(../images/footer-bg.png);
+    background-position: right;
+}
+.client-feedback h1{
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 35px;
+}
+
+.client-feedback h4{
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.client-feedback p{
+    text-align: center;
+    color: #707070;
+}
+
+.client-feedback h5 {
+    color: black;
+    text-align: center;
+    margin: 35px 0px 60px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.p-hero-mail {
+    padding-top: 40px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0px auto;
+    background-image: linear-gradient(45deg , #EC5196, #EC4C7D );
+}
+
+
+.p-hero-mail p{
+ text-align: center;
+ color: white;
+}
+.p-hero-mail a {
+ text-decoration: none;
+ color: white;
+
+}
+.p-hero-mail h1{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.contact-me {
+    width: 100%;
+    float: left;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.contact-me p{
+text-align: center;
+
+}
+.contact-me h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 55px;
+}
+
+.contact-me h1:hover{
+
+    color:  #EC5196;
+}
+.contact-img{
+    width: 50%;
+    float: left;
+}
+
+.contact-img img {
+    width: 67%;
+    display: block;
+    margin: 0px auto;
+}
+
+
+.contact-form {
+    width: 50%;
+    float: left;
+    padding-top: 96px;
+}
+.form-controll {
+    width: 90%;
+    padding: 9px;
+    margin-top: 14px;
+}
+.text-area{
+ width: 94%;
+ height: 150px;
+ margin-top: 14px;
+
+
+}
+.contact-btn {
+    margin: 0px auto;
+    display: block;
+    padding: 11px 49px;
+    border-radius: 11px;
+    border: none;
+    background-image: linear-gradient(45deg , hsl(333, 80%, 62%), #EC4C7D );
+    color: white;
+    margin-top: 21px;
+    font-size: 19px;
+}
+.get-in-touch{
+width: 100%;
+float: left;
+padding:100px 0px;
+
+}
+.get-in-touch h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #EC4C7A;
+    background: aliceblue;
+}
+
+
+hr {
+    width: 100px;
+    box-shadow: 6px 4px 5px black;
+    height: 1px;
+    text-align: center;
+    display: block;
+    color: black;
+
+    margin: 59px auto;
+}
+.fB {
+    width: 48%;
+    margin-right: 20px;
+    float: left;
+    padding: 50px 0px;
+    border-bottom: 9px solid;
+    box-shadow: 2px 3px 4px black;
+    border-image: linear-gradient(45deg , hsl(333, 80%, 62%), #EC4C7D );
+    border-image-slice: 1;
+    background: white;
+}
+.fB p {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.fB h1 a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+.github{
+    width:45%;
+    margin-left: 20px;
+    float: left;
+    padding: 50px 0px;
+    border-bottom: 9px solid;
+    box-shadow:2px 3px 4px black;
+    border-image: linear-gradient(45deg , hsl(333, 80%, 62%), #EC4C7D );
+    border-image-slice: 1;
+    background: white;
+}
+
+.github p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+.github h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+.copy-right p{
+    text-align: center;
+    font-weight: 500;
+}
